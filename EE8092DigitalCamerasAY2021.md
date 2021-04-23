@@ -337,15 +337,104 @@ Elements that are duplicated within a structure, such as pixels in a still image
 * frequency masking
 * color masking
 
-It is known that the human eye does not respond to all visual information with equal sensitivity.  
-Some information is simply of less relative importance. This information is referred to as  
-psychovisual redundant and can be eliminated without introducing any significant difference to  
-the human eye. The reduction of redundant visual information has some practical applications  
-in image compression.  
-Since the reduction of psychovisual redundancy results in quantitative loss of information, this  
-type of reduction is referred to as quantisation. The most common technique for quantisation is  
-the reduction of number of colours used in the image., thus colour quantisation. Since some  
-information is lost, the colour quantisation is an irreversible process. So the compression  
-techniques that used such process are lossy. It should be noted that even if this method of  
-compression is lossy, in situations where such compression technique is acceptable the  
-compression can be very effective and reduce the size of the image considerably.
+It is known that the human eye does not respond to all visual information with equal sensitivity. Some information is simply of less relative importance. The information is referred to as psychovisual redundant and can be eliminated without any significant difference to the human eye. The reduction of redundant visual information has some practical applications in image compression. Since the reduction of psychovisual redundancy results in quantitative loss of information, this type of reductions is referred to as quantisation. The most common technique for quantisation is the reduction of number of colors used in the image, thus color quantisation. Since some information is lost, the color quantisation is an irreversible process. So the compression techniques that used such process are lossy. It should be noted that even if this method of compression is acceptable the compression can be very effective and reduce the size of the image considerably.
+
+### Lossy and loseless compression
+Lossless compression:
+* use in important data (e.g medical image)
+* reconstructed image is identical to the original image after decompression
+
+Lossy compression:
+* For media such as image or video, it is not necessary to display more information than the human ear or eye can perceive. Thus the compression techniques may discard data with little perceived difference by humans
+* Reconstructed image is not identical to the original image after decompression
+
+### JPEG overview
+* very popular image compression scheme.
+* JPEG is know as ISO/IEC international standard 10918 or the ITU-T recommendation T.81
+* developed by an international body know as athe Joint Photographic Expert Group (JPEG)
+* four distinct modes of operation:
+	* sequential DCT-based mode (baseline JPEG)
+	* progressive DCT-based mode
+	* lossless mode
+	* hierarchical mode
+
+* main idea of baseline JPEG:
+	* image contents change slowly across images
+	* this means that lower spatial frequency componentns are more dominant than higher frequency components
+	* humans are more sensitive to lower frequency components
+	* JPEG uses the frequency domain analysis (DCT), emphasize on low frequency information, and then performs compression using entropy coding.
+
+#### Baseline JPEG
+* we will focus on sequential DCT-based coding mode,which is known as baseline JPEG
+* 5 main stages associated with baseline JPEG:
+	* image block processing
+	* forward 2D- DCT
+	* Quantisation
+	* Entropy encoding
+	* Frame building
+
+![enter image description here](https://www.eetimes.com/wp-content/uploads/media-1101219-fig1.jpg)
+
+#### Image block processing
+* Image preparation
+	* ![enter image description here](https://images.slideplayer.com/35/10351218/slides/slide_20.jpg)
+* Image partitioning
+	* Image is first partitioned into blocks of 8x8 pixels
+		* ![enter image description here](https://i.stack.imgur.com/HzTAf.jpg)
+
+#### Forward DCT
+The two dimensional Discrete cosine transform (2D-DCT) is applied to each 8x8 block
+
+#### JPEG DCT basis function
+![enter image description here](https://cs184.eecs.berkeley.edu/cs184_sp16_content/lectures/19_image-processing/images/slide_014.jpg)
+
+#### 2D-DCT in JPEG
+![enter image description here](https://www.eetimes.com/wp-content/uploads/media-1101221-fig2.jpg)
+
+example of 2D-DCT 
+![enter image description here](http://www.ece.ucdavis.edu/cerl/files/2015/09/jpeg_compress4.gif)
+
+#### 2D-DCT coding
+why 2D-DCT transform?
+* to convert the data into a form which is more suitable for compression
+* Transformation reduces the correlation between the coefficients (redundancy reduction)
+* Transformation yields energy compaction
+
+#### DCT coefficients
+![enter image description here](https://ars.els-cdn.com/content/image/3-s2.0-B9780750689755000054-gr20.jpg)
+
+#### Quantisation
+* human responds primarily to DC coefficient and lower AC coefficients
+* Hence, high frequency information is de-emphasized/discarded through quantisation
+* Information loss occurs during quantisation
+* The values in the quantisation table are a compromise between the level of compression and the resulting information loss
+* Quantisation of the transformed DCT coeffficients is performed:
+*![enter image description here](https://www.researchgate.net/profile/Loay-George-2/publication/260632175/figure/fig2/AS:296766982377480@1447766170601/Computation-of-the-quantized-DCT-coefficients.png)
+
+#### Entropy Encoding
+Entropy encoding contains
+* zig-zag scanning
+* Huffman encoding
+
+Zig-zag scanning
+* exploit the presence of large number of zeros in the quantised matrix
+* ![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO84NpodURCZ8cPNXf16vjEP-M35DTHweEMA&usqp=CAU)
+
+Huffman coding
+* high compression is achieved by replacing frequent patterns with shorter codewords
+* ![enter image description here](https://www.print-driver.com/wp-content/uploads/2013/02/color-column-01.png)
+
+#### Frame building
+
+The JPEG standard includes a definition on the stucture of the bitstream relating to the image. This is known as a frame
+
+The role of the frame builder is to encapsulate all the information relating to an encoded image in this format.
+![enter image description here](https://image.slidesharecdn.com/multimediacommunication-jpeg-170903105040/95/multimedia-communication-jpeg-25-638.jpg?cb=1504435928)
+
+## Summary
+
+Topics covered:
+* Imaging basics
+* Digital camera structure and concepts
+* Photography and editing
+* JPEG
