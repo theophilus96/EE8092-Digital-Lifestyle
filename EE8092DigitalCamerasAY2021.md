@@ -159,7 +159,193 @@ Connectivity of digital cameras to PC
 	* transfer speeds of up to 480 Mbps. Backwards compartible with usb 1.1 ports on a pc
 * USB 3
 	* transfer speed of up to 5 Gbps. backward compatible with USB 2
-	
+
+#### HDMI
+connectivity of digitak cameras ato display devices
+* HDMI type a = full size
+* HDMI type c = mini
+* HDMI type d = micro
+
+#### Battery
+Should provide a constant levl of power until it runs out
+* rechargeable batteries (lithium-ion) are designed for this purpose
+* Disposable alkaline batteries provide fairly constant power then slowly weaken to the point not enought to operate the camera.
+![enter image description here](https://www.torchspot.com/wp-content/uploads/2018/12/voltage-curve.gif)
 
 
+## Digital Camera: Features and functionalities
+Features:
+* optical image stabilizer
+* face recognition
+* red-eye effect reduction
+* etc
 
+### Optical image stabilizer (OIS)
+pictures are vulnerable to hand shake:
+* slow shutter speeds (due to poor lighting condition) can result in a blurry image
+* Tele and macro-photo will increase the effect of hand shake
+* use gyrosensors to detect jitters aand adjust optical axis to cancel hand-shake effect.
+![enter image description here](https://ssl-cache.stream.ne.jp/www50/eqa292biws/jmc_pub/thumbnail/00008/332c03d8cb09418c8117c933dba9636a_25.00007.jpg)
+
+### Face detection
+* Face detection technology uses pattern recognition algorithms to detect typical face patterns in an image
+* The camera then automatically adjust both the foucs and exposure to provide the best portrait possible.
+
+### Red Eye effects
+* When: a flash is used in a dark environment
+* Why: light of the flash is reflecting from the retina, which is covered with tiny blood vessels
+* The more open the pupils are, the more red eye effect you get. Red eye is more pronounced in people with light eye color.
+
+#### Red eye effect reduction
+* if possible, avoid taking flash photos in a dark environment
+* use red eye reduction pre flash
+	* red eye reduction works by having the flash shine a light into the eyes of the subject prior to taking the picture. This causes the pupil to contract.
+* Image editing software
+	* use editing software to correct red eye effect
+
+## Buying guide and emerging trends
+Camera options
+* compact ( point and shoot)
+* professional ( digital single lens reflex)
+* MILC ( mirrorless interchangeable lens camera)
+
+Factors:
+* Price
+* Simplicity
+* convenience
+* performance
+* size
+* etc
+
+### Compact camera
+* offer surprising power in a small package ( auto focus, auto exposure)
+* pros:
+	* cheaper, easier to use, more compact
+* cons:
+	* lower quality
+	* less control
+
+### Professional camera
+* DSLR cameras
+* Offer great degree of creative control (e.g advance optiosn for manipulating exposure, focus and color)
+* Pros:
+	* higher quality, more control
+* cons:
+	* more expensive, harder to use, bigger size, higher chance of breaking down
+
+### Lytro
+Shoot first, focus later
+
+### Mirrorless interchangeable lens camera
+* a digital camera that accepts different lenses
+* also called a hybrid camera or compact system camera (CSC)
+* body is thinner thatn a DSLR as it does not use a mechanical mirror to switch between optical view finder and image sensor
+* A trade-off between compact and DSLR camera
+
+![enter image description here](https://i.ytimg.com/vi/4ezKmawMEUs/maxresdefault.jpg)
+
+![enter image description here](http://4.bp.blogspot.com/-SApDpVeB3wA/VqusEP4oLZI/AAAAAAAAATA/EwwY-QQd0h4/s1600/slrVmirrorless1.png)
+
+## Photography tips
+* rule of thirds
+* diagonal rule
+* Miscellaneous tips
+
+### rule of thirds
+The rule states that an image should be divided into nine equal parts by 2 vertical and 2 horizontal lines, and important compositional elements should be placed along these lines or their intersections
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/RuleOfThirds-SideBySide.gif/650px-RuleOfThirds-SideBySide.gif)
+
+place your photo so that the main subjects are located around one of the intersection points rather than in the center of the image
+### Diagonal rule
+The diagonal rule states that a photograph looks more dynamic if the object falls or follow a diagonal line
+![enter image description here](https://cdn.fstoppers.com/styles/full/s3/media/2014/08/fstoppers-triangles1.jpg)
+
+### Photography tips
+1. Think about what you want to potray
+2. get close up shots
+3. catch your subjects being natural
+4. lighting is important
+5. include foreground
+6. background is important
+7. shoot off center for effect
+8. hold your camera steady
+9. shooting at different angles
+10.be creative
+
+## Image Editing
+* image postprocessing
+* image editing
+* editing software
+
+### Image editing
+1. Resizing/cropping
+2. changin contrast/color
+3. sharpening/softening
+4. impainting
+5. software tools
+
+#### Image resizing/cropping
+image resizing
+* makes image larger or smaller, changing resolution
+
+Cropping an image
+* discards unwanted part of the image (e.g. to improve image composition)
+
+#### Changing contrast/color
+* changing image contrast
+	* ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Contrast_change_photoshop.jpg/220px-Contrast_change_photoshop.jpg)
+
+* changing image color
+	* ![enter image description here](https://i.ytimg.com/vi/n9fwiNyDHLI/maxresdefault.jpg)
+
+#### Image sharpening
+![enter image description here](https://pe-images.s3.amazonaws.com/photo-editing/cc/sharpen-unsharp-mask/sharpen-images-unsharp-mask-photoshop-f.jpg)
+#### Image softening
+![enter image description here](https://digital-photography-school.com/wp-content/uploads/2010/09/high_pass_softening_before_after.jpg)
+
+#### Image inpainting
+Removal of unwanted elements
+![enter image description here](https://miro.medium.com/max/3200/0*XDSquMA8IDDbUrBT.png)
+
+### Editing Software
+* photoshop
+* Corel paint shop photo pro
+* GIMP
+* PhotoStudio
+
+### Photo sharing portals
+* instagram
+* pinterest
+* Flickr
+* picasa
+* etc
+
+## Joint  Photographic Expert Group
+why is image compression possible ?
+* image can be compressed because it contains the following redundancies
+	* spacial redundancies
+	* psychovisual redundancy
+
+### Spatial redundancy
+(intraframe redundancy)
+represents the statistical correlation between pixels within a small image neighborhood.
+
+Elements that are duplicated within a structure, such as pixels in a still image and bit patterns in a file. Exploiting a spatial redundancy is how compression is performed.
+
+### Psychovisual redundancy
+* texture masking
+* frequency masking
+* color masking
+
+It is known that the human eye does not respond to all visual information with equal sensitivity.  
+Some information is simply of less relative importance. This information is referred to as  
+psychovisual redundant and can be eliminated without introducing any significant difference to  
+the human eye. The reduction of redundant visual information has some practical applications  
+in image compression.  
+Since the reduction of psychovisual redundancy results in quantitative loss of information, this  
+type of reduction is referred to as quantisation. The most common technique for quantisation is  
+the reduction of number of colours used in the image., thus colour quantisation. Since some  
+information is lost, the colour quantisation is an irreversible process. So the compression  
+techniques that used such process are lossy. It should be noted that even if this method of  
+compression is lossy, in situations where such compression technique is acceptable the  
+compression can be very effective and reduce the size of the image considerably.
