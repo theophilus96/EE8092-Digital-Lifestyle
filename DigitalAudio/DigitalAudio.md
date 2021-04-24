@@ -157,3 +157,66 @@ A speaker is an electroacoustic transducer that converts an electrical audio sig
 ![](https://lh3.googleusercontent.com/proxy/VE_UpEtzAB1vD6IS-zTOq3iIspjO0KQN9G0Ln_WCvCMDKAanRuue5BDiVDeekp0XAd_qI0SJw35OVDWb-7mvr3YuanVc4B0Emx6UjpgoSt7da1OgkUvgXA)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RxdFP31QYAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Multiple drivers in speakers
+Tweeter:
+* for high frequency component
+* small and light, hence respond rapidly to applied signal
+
+Woofer：
+* for low frequency component
+*  require more power since the signal must drive a large mass
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jhvXWpRmhvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### What makes a good loudspeaker
+* The best speakers recreate sound accurately
+* Frequency response charts the range of frequencies a speaker is capable of producing
+* Key parameters:
+	* Range of frequency response
+	* Flatness of frequency response
+
+![](https://lh3.googleusercontent.com/proxy/Pbty1kUFwNi4AFCLpJ2rVgRq1fR6vEK9e-9N1p6uIjQut6INHn5fIBNsLlEnxbgeFAenOvV7lEbwZ1KH6kUrt3kUCvQ5-ChOXdOQh8TEtyWGnHOk18WcpcRfNZB39DSoQxVrK9Vdyz1sUjGPbKBffosZ7oXjJhk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dnLvtjFSeG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+#### Headphones
+* wired
+* wirless
+
+#### Earphones
+* Wired
+* Wireless
+
+## New and emerging audio applications
+Audio applications:
+* Audio compression
+* Speech recognition & natural language processing
+* emotion recognition
+* music retrieval
+* etc
+
+Emerging Audio applications
+* virtual assistant
+	* Siri, Google Assistant, Cortana, Bixby, Alexa
+	* Based on speech recognition and natural language processing
+* Language translation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ou9CjRWq1tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Audio Compression
+
+### MP3
+* MPEG-1 and/or MPEG-2 Audio layer 3, commonly called MP3 an audio coding format for digital audio
+* Designed by the Moving picture experts group (MPEG)
+* Basic Idea
+	* Use perceptual coding (psychoacoustic models) to approximate the accuracy of certain parts of sound that are beyoung auditory resolution for most people and then records the remaning information in an efficient manner
+* Lossy data compression
+	* Typical compression ratio from 4:1 to 20:1
+## Summary
+* Audio basics and concepts
+* Human Auditory systems and perception
+* digital audio formats
+* audio and music players and loud speakers
+* New and emerging audio applications
