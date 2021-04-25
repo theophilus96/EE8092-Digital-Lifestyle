@@ -639,7 +639,136 @@ The VCD standard was created in 1993 by sony, philips, matsushita and JVC and is
 * video connection
 * audio connection
 
-**How to set up a home theater system**
+### How to set up a home theater system
 * Identify the home theater location
 * position the television and speakers
 * connect the components
+
+#### Choosing a room
+* Lighting
+	* Not too bright
+* Dimension
+	* Choose enclosed Room
+	* Avoid perfect square or one dimension exacatly twice another
+	* Avoid too many hard surfaces
+* Sound
+	* Leave some space behind you for surround sound
+* Picture
+	* Sit close but not too close to the TV
+* No stray noise
+	* Washing machine
+	* clock
+	* etc
+#### TV postioning
+Rule of Thumb: 
+* Postion the seating approximately 2-3 times the diagonal size of a wide-screen televsion
+
+View angle:
+* CRT = 170 degree
+* Plasma/LCD = 160
+* DLP/LCD Projector = 130
+
+Video display more or less at eye level
+![](![TV and Furniture Placement Ideas for Functional and Modern Living Room  Designs | Furniture placement living room, Living room design modern,  Furniture placement](https://i.pinimg.com/originals/5e/6a/36/5e6a36696fe240697ad4f256f22d9049.jpg)
+
+#### Speaker postioning
+* Front, surroung, rear speakers
+* center speakers
+* Subwoofer
+
+#### Connecting the components
+* Different cables/connections
+	* Video
+		* RF coaxial
+		* composite video
+		* S-video
+		* component
+		* DVI
+		* HDMI
+	* Audio
+		* optical digital
+		* Coaxial digital
+		* Analog composite
+* Issue:
+	* quality
+
+
+#### RF(Radio frequency) Coaxial
+* Coaxial cable has inner conductor surrounded by an insulating layer which is further surrounded by a conducting shield
+* The typical coaxial RF connection uses 75 ohm coaxial cable
+* A coaxial connection should be used only when no better type of connection is available as quality is lower
+![](https://ars.els-cdn.com/content/image/3-s2.0-B9780750655552500079-f07-01-9780750655552.jpg)
+
+#### Composite video and audio
+* A composite video connection uses a standard RCA ( radio corporation of America) Plug and jack
+* A composite video signal has higher quality than a RF signal but not as good as the signal carried by an s-video or a component video cable
+* Three cables:
+	* yellow = video
+	* red = right audio
+	* white = left audio
+![](https://www.multicominc.com/wp-content/uploads/Composite-Video-Cable-300x237.jpg)
+
+#### S-video
+* Separate video/super video (S-video) is an analog video transmission scheme, in which video information is encoded on two channels:
+	* luma = luminance Y
+	* chroma = color C
+* S-video carries standard definition video ( typically at 480i or 576i resolution), but does not carry audio on the same cable
+* S-video cable features a four pin plug and a matching jack
+
+![](https://i.pinimg.com/originals/4a/4e/e9/4a4ee997cf71df5c9273b1f5730c6e2d.jpg)
+
+#### Component video
+
+* The component video is a video signal that has been split into different component channels. Component-video cables do not carry audio and are often paired with audio cables.
+* Component video delivers high quality picture signals with improved color accuracy
+* The color coding:
+	* Green = Y
+	* Red = Cr
+	* Blue = Cb
+
+![](https://qph.fs.quoracdn.net/main-qimg-9008a7fa8b9ce4a2e4e020e8d203ee90.webp)
+
+#### Digital visual interface (DVI)
+* A digital visual interface (DVI) connection is a digital connection, as opposed to the previous analog connections ( coaxial, composite and component)
+* It does not carry audio signal
+* The DVI cable uses a 24 -pin connector with 3 row of 8 pins each
+* Data signal:
+	* RGB data
+	* Clock
+	* Display data channel
+
+![](https://www.minitool.com/images/uploads/lib/2020/05/dvi/dvi-1.png)
+
+#### HDMI
+* A high definition multimedia interface (HDMI) connection is a digital video connection that alsocarries digital audio. HDMI cable uses a 19 pin connector that is smaller and sleeker than the older DVI connector.
+* The HDMI cable can carry up to eight channels of digital audio, which means that it can handle the 7.1 channel soundtracks of dolby digital EX
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/HDMI_Connector_Types.png/400px-HDMI_Connector_Types.png)
+
+#### Audio cables
+* **Optical digital**
+	* An optical digital cable transmits a digital audio signal across a fiber optic cable
+	* The connectors at either end of the optical digital cable are called toslink or EIA-J connectors
+	* fiber optic cable have enough bandwidth to handle 7.1 audio and more
+	* ![](https://cf.shopee.sg/file/12a61d4d3d6e99fb820226f1293b9e01)
+* **Coaxial digital**
+	* Coaxial digital connection transmit the data signal electrically through copper wires
+	* A digital coaxial cable looks like a coaxial cable with RCA connectors on each end
+	* https://www.whathifi.com/advice/coaxial-vs-optical-vs-hdmi-which-is-the-best-audio-connection-to-use
+
+#### USB
+* Used in data transfer
+* Different variants
+![](https://pronto-core-cdn.prontomarketing.com/2/wp-content/uploads/sites/1346/2018/10/USB-2-3-Types.png)
+## Gaming consoles
+* Microsoft Xbox Series X/S
+* Sony playstation 5
+* Nintendo Switch
+
+### Microsoft Kinect
+* Kinect is a motion sensing input device by microsoft for the xbox video game console
+* It enables users to control and interact with the Xbox through a natural user interface using gestures and spoken commands
+* Microsoft's main goal:
+	* Body Game:
+		* Use all parts of the body including the head, hands, feet and trunk
+
+
