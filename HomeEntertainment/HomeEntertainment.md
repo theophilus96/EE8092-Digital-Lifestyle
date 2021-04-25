@@ -770,5 +770,137 @@ Video display more or less at eye level
 * Microsoft's main goal:
 	* Body Game:
 		* Use all parts of the body including the head, hands, feet and trunk
+* Structure
+	* RGB camera
+	* 3D depth sensor
+	* multi array microphone
+	* mechanical rotating
+	* base
+	* custom processor
+	* customized software
+![](https://www.researchgate.net/profile/Saso-Koceski/publication/304919049/figure/fig2/AS:381355549577217@1467933656285/Kinect-Sensor-internal-structure.png)
 
+Feature:
+* Kinect employ the latesst tecnology in pattern recognition and machine learning for:
+	* Face recognition
+	* voice recognition
+	* gesture recognition
+	* gait recognition
+	* etc
 
+### Emerging Devices
+![](https://inteng-storage.s3.amazonaws.com/images/AUGUST/sizes/teslasuit_resize_md.jpg)
+
+## MPEG ( moving picture experts group)
+
+* Video is a sequence of digitalized pictures or frames
+* Video compression ultilizes the following redundancy to perform compression
+	* **Spatial redundancy**
+		* Spacial redundancy(intraframe redundancy) represents the statistical correlation between pixels within an image frame
+	* **Temporal redundancy**
+		* Temporal redundancy is the statistical correlation between pixels from successive frames in a temporal image or video sequence.
+		* It is also called interframe redundancy
+	* psychovisual redundancy
+		* Frequency masking
+		* color masking
+
+### Video compression
+Main idea in video compression:
+* Motion estimation
+	* Prediction of motion vector for macroblocks
+* Motion compensation
+	* Encode small difference between predicted and actual macroblocks
+
+Intraframe compression:
+* consider each video frame as a still image or picture
+* reduce spatial redundancy
+* employ JPEG based compression
+
+Interframe compression
+* Utilize correlation along temporal domain
+* Reduce temporal redundancy
+* Employ motion estimation and compensation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qbGQBT2Vwvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Motion estimation
+![](https://www.researchgate.net/publication/332665573/figure/fig1/AS:751769684545537@1556247268852/Motion-Estimation-Technique-and-Motion-Vector-Determination-Paper-6-PMuralidhar-and.jpg)
+
+### MPEG
+Objective:
+* to encode and compress video signals
+
+MPEG standard is based on DCT coding and Motion compensation
+* DCT coding:
+	* Remove intraframe redundancy
+* Motion compensation: Remove interframe redundancy
+
+A color video source has 3 components:
+* a luminance component (Y)
+* Two chrominance components (C~b~ and C~r~) in subsampling format
+![](https://www.researchgate.net/profile/Lifang-Gu/publication/2843770/figure/fig2/AS:279587159330819@1443670181095/The-hierarchical-structure-of-an-MPEG-video-stream.png)
+
+#### Group of pictures
+![](https://www.cse.wustl.edu/~jain/cis788-97/ftp/video_over_atm/mpeg_gop.gif)
+* The video sequence is divided into group of pictures (GOP)
+* Each GOP may include 3 types of pictures:
+	* I-frames (Intra-coded frames)
+		* Coded withouot reference to any other frames.
+		* The Y, Cb Cr blocks are encoded independently using JPEG algorithm
+	* P-frame (Predictive coded frames)
+		* Also know as intercoded or interpolation frames
+		* P-frames are coded using motion estimation and compensation from previous anchor I-frame or P-frame
+	* B-frame (Bidirectional coded frame)
+		* Also know as intercoded or interpolation frames
+		* B-frames are coded using predictions from either past future or both anchor frames.
+
+#### Chrominance subsampling
+* subsampling format:
+
+* 4:4:4
+
+no subsmapling
+
+* 4:2:2, 4:1:1
+
+horizontal subsampling
+
+* 4:1:1
+
+* for every 4 horizontal Y samples, 1 Cr and 1 Cb chroma are sampled
+
+* 4:2:2
+
+* For every 2 horizontal Y samples 1 Cr and 1 Cb chroma are sampled
+
+* 4:2:0
+
+horizontal and vertical subsampling
+
+* For every 2x2 Y samples, 1 Cr and 1 Cb chroma are sampled
+
+  
+
+![enter image description here](https://blog.biamp.com/wp-content/uploads/2017/09/chroma-subsample.jpg)
+
+  
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Common_chroma_subsampling_ratios.svg/1200px-Common_chroma_subsampling_ratios.svg.png)
+
+#### MPEG-1
+* MPEG-1 adopts CCIR601 digital TV format also known as SIF (Source input format)
+* MPEG-1 Supports only non-interlaced video
+* Normally, its picture resolion is:
+	* 352x240 for NTSC video at 30fps
+	* 352x288 for PAL at 25fps
+	* Uses 4:2:0 chroma subsampling
+
+Other video compression standards:
+* MPEG 1
+	* MPEG 2
+	* MPEG 4, H.264
+* H.261
+* H.263
+* H.26L
+![enter image description here](https://media-vcodex-com.s3-eu-west-1.amazonaws.com/media/uploads/vc%20timeline/timeline_4.png)
+![enter image description here](https://media-vcodex-com.s3-eu-west-1.amazonaws.com/media/uploads/vc%20timeline/timeline_3.png)
