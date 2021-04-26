@@ -310,3 +310,63 @@ RAM may use parity checking
 * High-end servers often have a form of error checkiong known as error correction code (ECC)
 * Bits can be corrected after failure, however, if more than one bit is corrupted the entire byte of data is lost
 ![](https://www.atlantic.net/wp-content/uploads/2016/11/ecc-vs-nonecc.png)
+
+### Static RAM (SRAM)
+* Often used for casche memory
+* very fast and relaible because these chips do not have to be recharged as often as DRAM hence the term "static"
+* More expensive than DRAM
+
+#### Cache
+* Cache memory (static ram) helps speed up the processor
+* Cache memory stores frequently used data and instructions
+	* when the processor needs an instruction or data
+	* it searches the memory in the order:
+		* L1 cache
+		* L2 cache
+		* Then L3 if exist
+		* Then DRAM
+		* ![](https://ecomputertips.com/wp-content/uploads/2020/06/Cache-Memory.jpg)
+
+
+#### Static RAM L1,L2
+Personal computers have 2 and perhaps 3 types of cache memory:
+* L1 level 1 cache 8KB to 128KB
+* L2 level 2 cache 64KB to 4MB
+* L2 advance transfer cache (ATC) on current microprocessors (built on the chip)
+	* ATC allows for the L2 cache to reside entirely within the processor core and feature a 256 but wide bus. processors that use ATC perform at a much faster rate
+
+#### Static RAM L3
+
+* L3 level 3 cache is cache separate from the microprocessor chip and is on the motherboard
+* L3 cache only exist on computers that use the L2 ATC
+
+L3 may also be on the microprocessor chip as is the case with intel core i7 chip
+
+![](https://hackernoon.com/hn-images/1*nT3RAGnOAWmKmvOBnizNtw.png)
+
+**Intel core i7 quad**
+![](https://www.cs.uaf.edu/2009/fall/cs441/proj1/russell/images/df94g6m6_4gxrw53gk_b.png)
+* 45nm
+* L1 Data 32KB
+* L1 Code 32KB
+* L2 256 KB per core
+* L3 8MB shared with all cores
+
+### Read only memory (ROM)
+* Memory chips that store permanent data and instructions
+* non-volative memory, it is not lost when computer's power is turned off
+* 3 main types
+	* ROM
+		* Firmware
+		* manufactured with permanently written data and instructions
+		* mask programmable by chip manufacturer
+		* non erasable
+	* PROM
+		* Programmable ROM
+		* blank ROM chip onto which a programmer can write permanently
+		* Write once, non erasable
+	* EEPROM
+		* Electrically erasable programmable ROM
+		* Type of PROM containing microcode programmer can erase
+		* erasable
+		* rewritable
