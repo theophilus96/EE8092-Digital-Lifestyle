@@ -370,3 +370,33 @@ L3 may also be on the microprocessor chip as is the case with intel core i7 chip
 		* Type of PROM containing microcode programmer can erase
 		* erasable
 		* rewritable
+
+### Flash memory
+* Flash memory can be erased electronically and rewritten 
+* store data and program on many mobile computers and devices such as smart phones and digital camera
+* Flash memory is similar to EEPROM
+* it is used to hold the startup instructions 
+* allows computer to update its contents easily
+
+Access time is the amount of time it take for the processor to read from memory
+* Measure in nanoseconds
+	* today's memory has access time from 5 to 70ns
+	* nano = 10^-9^
+	* pico = 10^-12^
+	*  micro = 10^-6^
+	*  milli = 10^-3^
+Access time can also be the time it takes for the storage device to locate the item on storage medium
+
+Hard disk acccess time = 0.006 = 6 ms
+RAM = 60ns
+* RAM is more than 100000 times faster than harddisk
+
+## Expansion slots and adapter cards
+* enhances the system unit or provides connections to external devices called peripherals
+* Also called expansion card
+
+### Expansion slots 
+* An openingn or socket on the motherboard that can hold an adapter card
+* with plug and play, the computer automatically configures cards and other devices as you install them.
+* 
+
